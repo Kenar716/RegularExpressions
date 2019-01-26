@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text.RegularExpressions;
 
-namespace RegularExpressionesNetCore
+namespace RegularExpressionsNetCore
 {
     class Program
     {
@@ -9,8 +9,7 @@ namespace RegularExpressionesNetCore
         {
             Console.WriteLine("Proceso iniciado.");
             
-            System.IO.StreamReader file = new System.IO.StreamReader(
-                @"C:\Users\cvald\PersonalGit\Platzi\Curso Expresiones Regulares\Proyecto\RegularExpressionesNetCore\results games.csv");
+            System.IO.StreamReader file = new System.IO.StreamReader(@"..\results games.csv");
 
             string line;
             int totalLines = 0;
